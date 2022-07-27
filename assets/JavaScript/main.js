@@ -28,3 +28,11 @@ function linkAction(){
     navMenu.classList.remove('show-menu');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+// =============ACCORDION LIST========== //
+
+// ============ QUALIFICATION TABS =======  // 
+
+// ========== SERVICES MODAL =========== // 
+
+
