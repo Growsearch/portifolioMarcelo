@@ -294,7 +294,7 @@ img {
 }
 
 .home__scroll {
-   /* display: none;*/
+   display: none;
 }
 
 .home__scroll-button {
@@ -346,11 +346,52 @@ img {
     align-items: center;
 }
 
-/*=========== ABOUT ===========*/
+/* =========== ABOUT =========== */
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 1px 2px 3px;
+}
 
-/*========= SKILLS =========== */
+.about__description {
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
 
-/*========== QUALIFICATIONS ====== */
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5) ;
+}
 
-/*============ SERVICES ========= */
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name {
+    font-size: var(--small-font-size);
+}
+
+.about__info-title,
+.about__info-name {
+    display: block;
+    text-align: center;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* ========= SKILLS =========== */
+
+/* ========== QUALIFICATIONS ======== */
+
+/* ============ SERVICES ========= */
+
+/**/
 
