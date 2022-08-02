@@ -9,7 +9,7 @@
 
     /*====== colors =====*/
     /*change favorite color */
-    --hue-color: 250; /* purple 250 - green 142 - blue 230 - pink 340 */
+    --hue-color: 142; /* purple 250 - green 142 - blue 230 - pink 340 */
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -503,9 +503,108 @@ img {
 .skills__open .skills__arrow {
     transform: rotate(-180deg) ;
 }
+
 /* ========== QUALIFICATIONS ======== */
 
+.qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color: var(--first-color);
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light); 
+}
+
+.qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+
+.qualification [data-content] {
+    display: none;
+}
+
+.qualification__active[data-content] {
+    display: block;
+}
+
+.qualification__button.qualification__active {
+    color: var(--first-color);
+}
 /* ============ SERVICES ========= */
 
-/**/
+.services__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.services__content {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.services__content:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+}
+
+.services__icon {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+}
+
+
+/*  active modal */
+
+/*================ PORTFOLIO ======== */
 

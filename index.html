@@ -39,12 +39,12 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#servicos" class="nav__link">
+                        <a href="#services" class="nav__link">
                             <i class="uil uil-briefcase-alt  nav__icon"></i> Serviços
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portifolio" class="nav__link">
+                        <a href="#portfolio" class="nav__link">
                             <i class="uil uil-scenery  nav__icon"></i> Portifólio
                         </a>
                     </li>
@@ -269,7 +269,7 @@
 
                             <div>
                                 <h1 class="skills__title">Designer</h1>
-                                <span class="skills__subtitle">Aproximadamente 1 e 3 meses</span>
+                                <span class="skills__subtitle">Aproximadamente 1 ano e 3 meses</span>
                             </div>
 
                             <i class="uil uil-angle-down  skills__arrow"></i>
@@ -302,27 +302,28 @@
         </section>
         
 
-        <!-- ========== QUALIFICATIONS ====== -->
+        <!-- ===================== *** QUALIFICATIONS *** ================= -->
         <section class="qualification section">
             <h2 class="section__title">Qualificações</h2>
             <span class="section__subtitle">Minha Jornada Pessoal</span>
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
                         <i class="uil uil-graduation-cap qualification__icon"></i>
                         Educação
                     </div>
 
-                    <div class="qualification__button button--flex">
+                    <div class="qualification__button button--flex" data-target="#work">
                         <i class="uil uil-briefcase-alt  qualification__icon"></i>
                         Trabalhos
                     </div>
                 </div>
 
                 <div class="qualification__sections">
-                    <!-- ========== QUALIFICATIONS CONTENT =========== -->
-                    <div class="qualification__content">
+
+                    <!-- ========== QUALIFICATIONS CONTENT 1! =========== -->
+                    <div class="qualification__content  qualification__active" data-content id="education">
                         <!-- ========== QUALIFICATION 1 ====== -->
                         <div class="qualification__data">
                             <div>
@@ -404,11 +405,11 @@
                     </div>
 
                     <!-- ========== QUALIFICATIONS CONTENT 2!  ============ -->
-                    <div class="qualification__content">
+                    <div class="qualification__content"  data-content id="work">
                         <!-- ========== QUALIFICATION 1 ====== -->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Desenvolvedor Front-end / <br> Analista de Produto</h3>
+                                <h3 class="qualification__title">Desenvolvedor Front-end + <br> Analista de Produto</h3>
                                 <span class="qualification__subtitle">Grow Search - Rio de Janeiro</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -450,6 +451,142 @@
         </section>
 
         <!-- ======== SERVICES ========== -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Serviços</h2>
+            <span class="section__subtitle">O que ofereço</span>
+
+            <div class="services__container container grid">
+                <!-- ======== SERVICES 1 ========== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid  services__icon"></i>
+                        <h3 class="services__title">UI/UX <br>Designer</h3>
+                    </div>
+
+                    <span class="button button--small button--link services__button">
+                      View More 
+                      <i class="uil uil-arrow-right  button__icon"></i>  
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-services grid">Ui/Ux <br> Designer </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Eu desenvolvo a Interface do Usuário.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Desenvolvedor de páginas Web.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Crio interações de elementos UX.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Posiciono a marca de sua empresa.</p>
+                                </li>
+                            </ul>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======== SERVICES 2 ========== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow  services__icon"></i>
+                        <h3 class="services__title">Frontend <br>Developer</h3>
+                    </div>
+
+                    <span class="button button--small button--link services__button">
+                      View More 
+                      <i class="uil uil-arrow-right  button__icon"></i>  
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-services grid">Frontend <br>Developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Eu desenvolvo a Interface do Usuário.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Desenvolvedor de páginas Web.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Crio interações de elementos UX.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Posiciono a marca de sua empresa.</p>
+                                </li>
+                            </ul>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======== SERVICES 3 ========== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen  services__icon"></i>
+                        <h3 class="services__title">Brading <br>Designer</h3>
+                    </div>
+
+                    <span class="button button--small button--link services__button">
+                      View More 
+                      <i class="uil uil-arrow-right  button__icon"></i>  
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-services grid">Brading <br> Designer </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Eu desenvolvo a Interface do Usuário.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Desenvolvedor de páginas Web.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Crio interações de elementos UX.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle service__modal-icon"></i>
+                                    <p>Posiciono a marca de sua empresa.</p>
+                                </li>
+                            </ul>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <!-- ========= PORTIFOLIO ========= -->
 
