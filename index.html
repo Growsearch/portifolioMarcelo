@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--============= SWIPER CSS ==========-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css">
 
     <!--============== CSS ============== -->
     <link rel="stylesheet" href="assets/CSS/style.css">
@@ -413,7 +413,7 @@
                                 <span class="qualification__subtitle">Grow Search - Rio de Janeiro</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2022 - 2026
+                                    2022
                                 </div>
                             </div>
 
@@ -450,7 +450,8 @@
             </div>
         </section>
 
-        <!-- ======== SERVICES ========== -->
+        <!-- ==================== SERVICES ====================== -->
+
         <section class="services section" id="services">
             <h2 class="section__title">Serviços</h2>
             <span class="section__subtitle">O que ofereço</span>
@@ -537,7 +538,6 @@
                                     <p>Posiciono a marca de sua empresa.</p>
                                 </li>
                             </ul>
-                            </h4>
                         </div>
                     </div>
                 </div>
@@ -588,7 +588,72 @@
             </div>
         </section>
 
-        <!-- ========= PORTIFOLIO ========= -->
+        <!-- ======================= !!! PORTIFÓLIO !!! ====================== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfólio</h2>
+            <span class="section__subtitle">Meus projetos mais recentes:</span>
+
+            <div class="portfolio__container container  swiper-container">
+                <div class="swiper-wrapper">
+                    <!--============ PORTFOLIO 1 ============ -->
+                    <div class="portfolio__content grid  swiper-slide">
+                        <img src="assets/imagens/sitegsPrint.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Site Oficial GrowSearch</h3>
+                            <p class="portfolio__description">Trabalhando em toda a parte Front-end do site e mais analise de produtos (ebook's)</p>
+
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View More
+                                <i class="uil uil-arrow-right  button__icon"></i>  
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--============ PORTFOLIO 2 ============ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/imagens/fotoPcTelaRoxa.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Página de cep / preço do Bitcoin</h3>
+                            <p class="portfolio__description">Página onde o usuário consegue digitar o cep e a pagina entrega o endereço equivalente. Tudo feito com a API do viacep e do Bitcoin</p>
+
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View More
+                                <i class="uil uil-arrow-right  button__icon"></i>  
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--============ PORTFOLIO 3 ============ -->
+                    <div class="portfolio__content grid  swiper-slide">
+                        <img src="assets/imagens/animaisFantasticosPrint.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Site Animais Fantásticos</h3>
+                            <p class="portfolio__description">Site todo feito em JS Vanilla ES6+, com funções de animação ao scroll, initTab e varias outras interações maneiras. </p>
+
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                View More
+                                <i class="uil uil-arrow-right  button__icon"></i>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ====== arrow swiper =====-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- ADD Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
 
         <!-- ======= PROJETOS EM MENTE ======= -->
 
@@ -603,9 +668,10 @@
     <!--============ SCROLL TOP =========== -->
 
     <!-- ============ SWIPER JS ============ -->
-    <script src="assets/JavaScript/main.js"></script>
+    <script src="assets/JavaScript/swiper-bundle.min.js"></script>
 
     <!-- ============= MAIN JS ============ -->
-    
+    <script src="assets/JavaScript/main.js"></script>
+
 </body>
 </html>
