@@ -9,19 +9,23 @@
 
     /*====== colors =====*/
     /*change favorite color */
-    --hue-color: 225; /* purple 250 - green 142 - blue 230 - pink 340 */
+    --hue-color: 250; /* purple 250 - green 142 - blue 230 - pink 340 */
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%); 
     --first-color-alt: hsl(var(--hue-color), 57%, 53%); 
     --first-color-light: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%); 
+    /*--title-color: hsl(var(--hue-color), 8%, 15%); */
+    --title-color: #e7e7e7;
     --text-color: hsl(var(--hue-color), 8%, 45%); 
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%); 
-    --container-color: #fff; 
+    /*--input-color: hsl(var(--hue-color), 70%, 96%);*/
+    --input-color: rgb(204, 204, 204); 
+    /*--body-color: hsl(var(--hue-color), 60%, 99%); */
+    --body-color: rgb(31, 31, 32);
+    /*--container-color: #fff; */
+    --container-color: rgb(59, 59, 59);
 
     /*===========FONT OF TYPOGRAPHY ============= */
     --body-font: 'Poppins', sans-serif;
@@ -877,7 +881,8 @@ img {
 
 .contact__label {
     font-size: var(--smaller-font-size);
-    color: var(--title-color);
+    /*color: var(--title-color);*/
+    color: rgb(31, 31, 32);
 }
 
 .contact__input {
