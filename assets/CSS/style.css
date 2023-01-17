@@ -9,7 +9,7 @@
 
     /*====== colors =====*/
     /*change favorite color */
-    --hue-color: 250; /* purple 250 - green 142 - blue 230 - pink 340 */
+    --hue-color: 200; /* purple 250 - green 142 - blue 230 - pink 340 */
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -94,11 +94,12 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
-    color: var(--text-color);
+    color: var(#e7e7e7);
 }
 
 h1,h2,h3 {
     color: var(--title-color);
+    color: #e7e7e7;
     font-weight: var(--font-semi-bold);
 }
 
@@ -113,6 +114,10 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+
+p {
+    color: #e7e7e7;
 }
 
 /* =============  CLASSE DE CSS REUSAVEIS ======== */
@@ -301,12 +306,14 @@ img {
 .home__subtitle {
     font: var(--h3-font-size);
     color: var(--text-color);
+    color: #e7e7e7;
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-75);
 }
 
 .home__description {
-    margin-bottom: var(--mb-2)
+    margin-bottom: var(--mb-2);
+    color: #e7e7e7;
 }
 
 .home__scroll {
@@ -414,12 +421,14 @@ img {
 
 .about__info-name {
     font-size: var(--small-font-size);
+    color: #e7e7e7;
 }
 
 .about__info-title,
 .about__info-name {
     display: block;
     text-align: center;
+    color: #e7e7e7;
 }
 
 .about__buttons {
@@ -442,6 +451,7 @@ img {
 .skills__icon, .skills__arrow {
     font-size: 2rem;
     color: var(--first-color);
+    color: #e7e7e7;
 }
 
 .skills__icon {
@@ -455,6 +465,7 @@ img {
 .skills__subtitle {
     font-size: var(--small-font-size);
     color: var(--text-color-light);
+    color: #e7e7e7;
 }
 
 .skills__arrow {
