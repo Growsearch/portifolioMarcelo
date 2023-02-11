@@ -93,13 +93,16 @@ body {
     margin: 0 0 var(--header-height) 0%;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(#e7e7e7);
+    /*background-color: var(--body-color);*/
+    background-color: #e7e7e7;
+    color: #e7e7e7;
+    color: #131313;
 }
 
 h1,h2,h3 {
     color: var(--title-color);
     color: #e7e7e7;
+    color: #131313;
     font-weight: var(--font-semi-bold);
 }
 
@@ -117,7 +120,7 @@ img {
 }
 
 p {
-    color: #e7e7e7;
+    color: #131313;
 }
 
 /* =============  CLASSE DE CSS REUSAVEIS ======== */
@@ -306,14 +309,14 @@ p {
 .home__subtitle {
     font: var(--h3-font-size);
     color: var(--text-color);
-    color: #e7e7e7;
+    color: #131313;
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-75);
 }
 
 .home__description {
     margin-bottom: var(--mb-2);
-    color: #e7e7e7;
+    color: #131313;
 }
 
 .home__scroll {
@@ -416,19 +419,18 @@ p {
 .about__info-title {
     font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
-    color: var(--title-color);
+    color: rgb(196, 192, 3);
 }
 
 .about__info-name {
     font-size: var(--small-font-size);
-    color: #e7e7e7;
+    color: #131313;
 }
 
 .about__info-title,
 .about__info-name {
     display: block;
     text-align: center;
-    color: #e7e7e7;
 }
 
 .about__buttons {
@@ -523,7 +525,7 @@ p {
 /* ==== parte de backend ===== */
 
 .skills__java {
-    width: 15%;
+    width: 30%;
 }
 
 .skills__sql {
