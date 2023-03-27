@@ -515,38 +515,46 @@ p {
 
 .skills__html {
     width: 90%;
+    background-color: red;
 }
 
 .skills__css {
-    width: 85%;
+    width: 90%;
+    background-color: rebeccapurple;
 }
 
 .skills__js {
     width: 70%;
+    background-color: yellow;
 }
 
 .skills__react {
     width: 15%;
+    background-color: #44afe4;
 }
 
 /* ==== parte de backend ===== */
 
 .skills__java {
-    width: 30%;
+    width: 62%;
+    background-color: rgb(226, 174, 3);
 }
 
 .skills__sql {
-    width: 10%;
+    width: 25%;
+    background-color: blue;
 }
 
 /*===== parte do design ===*/
 
 .skills__figma {
     width: 75%;
+    background-color: rebeccapurple;
 }
 
 .skills__adobe {
     width: 65%;
+    background-color: red;
 }
 
 
