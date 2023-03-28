@@ -12,6 +12,7 @@
 
     <!--============== CSS ============== -->
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/slide.css">
 
     <title>Portifólio Marcelo</title>
 </head>
@@ -634,65 +635,62 @@
             <h2 class="section__title">Portfólio</h2>
             <span class="section__subtitle">Meus projetos mais recentes:</span>
 
-            <div class="portfolio__container container  swiper">
-                <div class="swiper-wrapper">
-                    <!--============ PORTFOLIO 1 ============ -->
-                    <div class="portfolio__content grid  swiper-slide">
-                        <img src="assets/imagens/sitegsPrint.jpg" alt="" class="portfolio__img">
+            <ul class="custom-controls">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Site Oficial GrowSearch</h3>
-                            <p class="portfolio__description">Trabalhando em toda a parte Front-end do site e mais analise de produtos (ebook's)</p>
-
-                            <a href="https://growsearch.github.io/Site-gs/index.html" class="button button--flex button--small portfolio__button">
-                                View More
-                                <i class="uil uil-arrow-right  button__icon"></i>  
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--============ PORTFOLIO 2 ============ -->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/imagens/apiviacepPrint.jpg" alt="viacep" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Projeto API Cep/BTC</h3>
-                            <p class="portfolio__description">Usuário consegue digitar o cep e a pagina entrega o endereço. Tudo feito com a API do viacep e do Bitcoin</p>
-
-                            <a href="https://growsearch.github.io/formulario.js/" class="button button--flex button--small portfolio__button">
-                                View More
-                                <i class="uil uil-arrow-right  button__icon"></i>  
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--============ PORTFOLIO 3 ============ -->
-                    <div class="portfolio__content grid  swiper-slide">
-                        <img src="assets/imagens/animaisFantasticosPrint.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Site Animais Fantásticos</h3>
-                            <p class="portfolio__description">Site todo feito em JS Vanilla ES6+, com funções de animação ao scroll, initTab e varias outras interações maneiras. </p>
-
-                            <a href="https://growsearch.github.io/animais-fantasticos/" class="button button--flex button--small portfolio__button">
-                                View More
-                                <i class="uil uil-arrow-right  button__icon"></i>  
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ====== arrow swiper =====-->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
-                </div>
-
-                <!-- ADD Pagination -->
-                <div class="swiper-pagination"></div>
-
+            <div class="wrapper">
+                <ul class="slide">
+                    <li>
+                        <div><img src="assets/imagens/1.jpg" alt=""></div>
+                        <h2>Animais Fantásticos</h2>
+                        <p>Site Mostruario Animais Fantásticos. JS Vanilla. 
+                    </li>
+    
+                    <li>
+                        <div><img src="assets/imagens/starbucksimg.jpg"></div>
+                        <h2>Starbucks</h2>
+                        <p>Landing page totalmente desenvolvida por nós e com um efeito 3D sensacional.
+                            <a href="https://growsearch.github.io/projeto-starbucks/index">starbucks landing-page</a>
+                        </p>
+                    </li>
+    
+                    <li>
+                        <div><img src="assets/imagens/2.jpg" alt=""></div>
+                        <h2>FINBOX</h2>
+                        <p>Projeto FINBOX. um site criado voltado para finanças.
+                            <a target="_blank" href="https://growsearch.github.io/Site-gs/index.html">GS Mostruario</a>
+                        </p>
+                    </li>
+    
+                    <li>
+                        <div><img src="assets/imagens/3.jpg" alt=""></div>
+                        <h2>Buscador de CEP</h2>
+                        <p>Desenvolvido utilizando API de cep. <br> O Utilizador do site digita o cep e o programa retorna todo o endereço.
+                            <a href="https://growsearch.github.io/formulario.js/">Buscador de CEP</a>
+                        </p>
+                    </li>
+    
+                    <li>
+                        <div><img src="assets/imagens/4.jpg" alt=""></div>
+                        <h2>Preço Bitcoin</h2>
+                        <p>Preço em tempo real do Bitcoin. <br> Utilizando a API de criptomoedas onde retorna o valor em tempo real do Bitcoin no caso.
+                            <a href="">Bitcoin Price</a>
+                        </p>
+                    </li>
+    
+                    <li>
+                        <div><img src="assets/imagens/5.jpg" alt=""></div>
+                        <h2>Studio Tattoo</h2>
+                        <p>Construimos esse projeto de studio de Tattoo para vizualização. Confira: <a href="https://growsearch.my.canva.site/portfoliotattoo">Studio Tattoo</a></p>
+                    </li> 
+                   
+                </ul>
             </div>
         </section>
 
@@ -924,10 +922,11 @@
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-    <!-- ============ SWIPER JS ============ -->
-    <script src="assets/JavaScript/swiper-bundle.min.js"></script>
+    <!-- ============ SWIPER JS ============ 
+    <script src="assets/JavaScript/swiper-bundle.min.js"></script> -->
 
     <!-- ============= MAIN JS ============ -->
+    <script type="module" src="assets/JavaScript/script.js"></script>
     <script src="assets/JavaScript/main.js"></script>
 
 </body>
